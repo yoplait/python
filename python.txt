@@ -1,0 +1,31 @@
+#Install
+
+pip install --upgrade pip
+pip install -U boto
+
+pip install numpy
+pip install --upgrade numpy
+
+pip3 install numpy
+pip3 install ipwhois 
+pip3 install apache_log_parser
+
+
+
+pip install -U numpy
+easy_install numpy
+
+numpy-<1.y.z>-superpack-win32.exe /arch nosse
+
+python setup.py install
+
+python setup.py build --build-base=/path/to/pybuild/foo-1.0
+
+python setup.py install build --compiler=mingw32
+
+setup.py install build --compiler=mingw32
+
+pip install module-name.whl 
+
+pip install zipline
+easy_install zipline
