@@ -28,3 +28,21 @@ def do_it():
 if __name__ == "__main__":
     do_it()
     exit()
+
+
+
+
+    
+# ssh.connect('127.0.0.1', username='jesse', password='lol')
+# stdin, stdout, stderr = ssh.exec_command("sudo dmesg")
+# stdin.write('lol\n')stdin.flush()
+# data = stdout.read.splitlines()
+# for line in data:
+#     if line.split(':')[0] == 'AirPort':
+#         print line
+
+
+
+# ssh = paramiko.SSHClient()
+# ssh.connect('127.0.0.1', username='jesse', password='lol')
+
