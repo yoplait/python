@@ -10,7 +10,7 @@ pip3 install numpy
 pip3 install ipwhois 
 pip3 install apache_log_parser
 
-
+pip install python-dateutil
 
 pip install -U numpy
 easy_install numpy
@@ -29,3 +29,19 @@ pip install module-name.whl
 
 pip install zipline
 easy_install zipline
+
+
+API 
+For instance:
+
+http://finance.yahoo.com/d/quotes.csv?s=GOOG+AAPL&f=snl1
+
+Full details here:
+
+http://www.gummy-stuff.org/Yahoo-data.htm
+curl -L "http://finance.yahoo.com/d/quotes.csv?s=msft&f=sl1d1t1c1ohgv&e=.csv"
+
+http://www.programmableweb.com/news/96-stocks-apis-bloomberg-nasdaq-and-etrade/2013/05/22
+
+https://www.quantstart.com/articles/using-python-ibpy-and-the-interactive-brokers-api-to-automate-trades
+http://liveincode.blogspot.com/2013/01/getting-stock-quotes-from-nasdaqcom.html
