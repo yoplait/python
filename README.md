@@ -1,12 +1,12 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This is my python bucket 
 
 ### What is this repository for? ###
 
-* Quick summary
+* Python and more python
 * Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* [Juan Carlos Perez](https://https://github.com/yoplait/python)
 
 ### How do I get set up? ###
 
