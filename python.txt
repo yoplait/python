@@ -1,7 +1,47 @@
-#Install
+#
+# Install
+#
 
+curl -O https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+
+apt-get install git (2.5.x)
+
+apt-get install nano
+
+apt-get install openssh
+apt-get install openssl
+apt-get install openssl-devel
+
+apt-get install python-crypto
+apt-get install python-openssl
+apt-get install python-setuptools
+
+apt-get install python-dev 
+apt-get install libffi-dev
+apt-get install libssl-dev
+apt-get install python-cffi
+apt-get install libffi-devel
+
+apt-get install build-essential libssl-dev libffi-dev python-dev
+
+pip install -U pip
 pip install --upgrade pip
 pip install -U boto
+
+pip install paramiko 
+pip install --upgrade cffi
+
+pip install PyYAML 
+pip install Jinja2 
+pip install httplib2 
+pip install six 
+pip install markupsafe  
+pip install docker-py
+
+pip install ansible==2.0.2.0
+
+
 
 pip install numpy
 pip install --upgrade numpy
