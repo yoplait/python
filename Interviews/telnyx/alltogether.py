@@ -8,7 +8,7 @@
 # Program: 
 # 
 # Program to convert in any bases
-# How to use: execute  # python converter.py
+# How to use: execute  # python alltogether.py
 # 
 #
 
