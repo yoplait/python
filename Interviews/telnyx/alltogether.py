@@ -24,19 +24,20 @@ import itertools
 
 def Palindrome_Number(n):
     #n = input('Enter Number to check for palindromee:   ')
-    print "Hi , The number is  :",n
-    print ""
+    #print "Hi , The number is  :",n
+    #print ""
     m=n
     a = 0
     while(m!=0):
         a = m % 10 + a * 10
         m = m / 10
-
     if( n == a):
         print('%d is a palindrome number' %n)
     else:
         print('%d is not a palindrome number' %n)
-
+    return ""
+    #return 
+    #pass
 
 def My_Bases(argument):
     switcher = {
@@ -80,9 +81,10 @@ def base10toN(num, base):
 print("Comienzo of my super palindrome")
 
 for base in itertools.count(start=2, step=1): #base
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     for num in itertools.count(start=0, step=1): #numbers
         print("Numero en decimal:                              ",num)
-        print("Base en:                                  ",My_Bases(base),base10toN(num,base))
+        print("BASE en :                                  ",My_Bases(base),base10toN(num,base)) #base en 
         print(Palindrome_Number(int(base10toN(num,base))))
         #print("Numero en base binaria:      ",base10toN(num,base))
         time.sleep (50.0 / 1000.0);
