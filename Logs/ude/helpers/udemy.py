@@ -87,14 +87,14 @@ def get_top10_top5url(log, log2):
 # 8.       For each of the top 10 IPs, show the top 5 pages requested and the number of requests for each.
     global p8
     for linea in log: 
-        aws_ip = linea.split()[0]      
-        if aws_ip not in dict_ips:
-            dict_ips[aws_ip] = 1
+        udemy_ip = linea.split()[0]      
+        if udemy_ip not in dict_ips:
+            dict_ips[udemy_ip] = 1
         else:
-            value = dict_ips[aws_ip] 
+            value = dict_ips[udemy_ip] 
             # print (value)
-            dict_ips[aws_ip] = value+1
-            # print(dict_ips[aws_ip])
+            dict_ips[udemy_ip] = value+1
+            # print(dict_ips[udemy_ip])
         p8 += 1
         
     print("################################################")
@@ -108,14 +108,14 @@ def get_top10_top5url(log, log2):
         print('The Ip: %s: Number of Requests: %s' % (ip, times))
 
         for linea2 in log2:             
-            aws_ip = linea2.split()[0]
-            aws_url = linea2.split(' ')[6]
-            if aws_ip == ip:        
-                if aws_url not in dict_ip_url:
-                    dict_ip_url[aws_url] = 1   
+            udemy_ip = linea2.split()[0]
+            udemy_url = linea2.split(' ')[6]
+            if udemy_ip == ip:        
+                if udemy_url not in dict_ip_url:
+                    dict_ip_url[udemy_url] = 1   
                 else:
-                    value = dict_ip_url[aws_url] 
-                    dict_ip_url[aws_url] = value+1
+                    value = dict_ip_url[udemy_url] 
+                    dict_ip_url[udemy_url] = value+1
                                   
         cnt2 = Counter(dict_ip_url)
         # print(cnt)
@@ -155,7 +155,7 @@ def get_request_per_minute(log):
             value = dict_con_min[soda]                   
             # print (value)
             dict_con_min[soda] = value+1
-            # print(dict_ips[aws_ip])
+            # print(dict_ips[udemy_ip])
         
         p7 += 1
         return()

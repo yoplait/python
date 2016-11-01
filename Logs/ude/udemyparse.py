@@ -211,7 +211,7 @@ def udemy3(request):
             value = dict_con_min[soda]                   
             # print (value)
             dict_con_min[soda] = value+1
-            # print(dict_ips[aws_ip])
+            # print(dict_ips[udemy_ip])
         p7 += 1
 
     #print(dict_con_min)
